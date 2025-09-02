@@ -1,8 +1,10 @@
 import random 
 from faker import Faker
+import os 
 fake = Faker()
 
 randomNumber = random.randint(1,100)
+os.system('cls||clear')
 
 print("Welcome to the username generator!")
 
